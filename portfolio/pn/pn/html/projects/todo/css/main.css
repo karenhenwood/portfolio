@@ -1,0 +1,33 @@
+.project{
+	text-align: center;
+}
+
+.project input{
+	display: block;
+	margin: 5px auto;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.project ol{
+	text-align: center;
+	list-style-position: inside;
+	width: 35%;
+	margin: auto;
+	padding-left:0;
+}
+
+.project li{
+	text-align: left;
+	word-wrap: break-word;
+	font-size: 25px;
+}
+
+.project #add{
+	margin: 10px;
+}
+
+.project .delete{
+	margin: 5px;
+}
+

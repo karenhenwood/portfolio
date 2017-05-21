@@ -1,0 +1,70 @@
+.project .container{
+	width:  80%;
+	margin: auto;
+}
+
+.project h1{
+	text-align:center;
+}
+
+.project #thread-wrapper-container{
+	position:relative;
+}
+
+.project #thread-wrapper{
+	overflow-y:auto;
+	height:60vh;
+	background-color: lightgrey;
+}
+.project #thread{
+	position:relative;
+}
+
+.project #noteholder{
+	position:absolute;
+	background-color: rgba(102,102,255, .7);
+	padding-left: 5px;
+	padding-right: 5px;
+	bottom:0;
+}
+
+.project .row{
+	padding: 5px 4px;
+}
+
+.project .projectleft{
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 20px;
+	background-color: #ffffb3;
+	min-height: 20px;
+}
+
+.project .projectright{
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 5px;
+	background-color: #ccffff;
+	min-height: 20px;
+	float:right;
+}
+
+.project .projectleft, .projectright{
+	word-break: break-all;
+	position: relative;
+	padding: 7px;
+}
+
+.project .remove{
+	font-size: 7px;
+	position:absolute;
+	padding-right: 10px;
+	bottom:0;
+	right:0;
+}
+
+.project .remove:hover{
+	font-size: 9px;
+}
+
+

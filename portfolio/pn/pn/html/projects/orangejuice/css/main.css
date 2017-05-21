@@ -1,0 +1,228 @@
+body{
+	margin: 0;
+	padding-bottom: 85px; /*Match padding to footer height*/
+}
+
+/*Navigation bar styling*/
+nav{
+	background-color: #FE7E00;
+	color: #F1DCBC;
+	overflow: auto;
+}
+nav div{
+	display: inline-block;
+	font-size: 30px;
+	padding-left: 5%;
+	padding-top: 1%;
+}
+nav img{
+	display: inline-block;
+	width: 30px;
+	vertical-align: middle;
+}
+nav p {
+	display: inline-block;
+	font-family: 'Varela Round', sans-serif;
+	margin: 0;
+	font-weight: 100;
+}
+nav span{
+	font-weight: 900;
+}
+nav ul{
+	display: inline-block;
+	float: right;
+	width: 55%;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline-block;
+	font-family: 'Varela', sans-serif;
+	float: right;
+	font-size: 15px;
+	font-weight: 900;
+	padding: 3% 4%;
+	text-transform: uppercase;
+}
+
+/*Section break styling*/
+#sectionbreak{
+	background-color: #F16F01;
+	height: 10px;
+}
+
+/*Mid-Section styling*/
+section{
+	overflow: auto;
+}
+#leftpanel{
+	width: 50%;
+	display: inline-block;
+}
+#leftpanel img{
+	width: 56%;
+	margin: 10% 22%;
+}
+#rightpanel{
+	width: 50%;
+	display: inline-block;
+	float: right;
+	padding-bottom: 5%;
+}
+.inputzone {
+	position: relative;
+	margin-top: .5%;
+}
+.inputzone input{
+	background-color: #F0F0F0;
+	border: none;
+	width: 30%;
+	position: absolute;
+	right: 0;
+	padding: 2% 0 2% 1%;
+	margin-right: 5%;
+	color: #C8C8CA;
+	font-size: 15px;
+}
+.inputzone i{
+	position: absolute;
+	right: 0;
+	padding: 2% 2% 0 0;
+	margin-right: 5%;
+	color: #C8C8CA;
+	font-size: 20px;
+}
+#rightpanel input:focus{
+	outline: none;
+	z-index: 1;
+}
+#centeredcontent{
+	text-align: center;
+	margin: 15% 15% 0 10%;
+}
+#rightpanel p{
+	color: #FE7E00;
+	font-size: 30px;
+	font-weight: 100;
+	text-align: left;
+	margin: 0;
+	padding: 1% 0 1% 0;
+	word-spacing: 10px;
+	letter-spacing: 2px;
+	font-family: 'Varela Round', sans-serif;
+}
+#rightpanel span{
+	font-weight: 900;
+}
+.bluetext{
+	color: #7ACCC8;
+}
+#rightpanel button{
+	border: none;
+	color: #F1DCBC;
+	margin-top: 10%;
+	width: 47%;
+    padding: 4% 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+#leftbutton{
+     background-color: #FE7E00;
+     float: left;
+
+}
+#rightbutton{
+	background-color: #7ACCC8;
+	float: right;
+}
+
+/*Empty Blue Footer styling*/
+footer{
+	background-color: #7ACCC8;
+	height: 85px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+/*Navigation bar media queries*/
+@media(max-width: 1005px){
+  nav li {
+  	font-size: 10px;
+	padding: 3% 4%;
+  }
+  nav div{
+    font-size: 20px;
+  }
+}
+@media(max-width: 665px){
+  nav div{
+	display: block;
+	padding-top: 2%;
+  }
+  nav ul{
+  	float: left;
+	padding-left: 5%;
+	width: 95%;
+  }
+  nav li{
+  	padding: 1.5% 2%;
+  	float: left;
+  }
+}
+
+/*Mid-Section Media Queries*/
+@media(max-width: 1325px){
+  #rightpanel button{
+    font-size: 15px;
+  }
+  #rightpanel p{
+	font-size: 30px;
+  }
+}
+@media(max-width: 1070px){
+  #rightpanel button{
+    font-size: 10px;
+  }
+  #rightpanel p{
+    font-size: 25px;
+  }
+}
+@media(max-width: 680px){
+  #rightpanel button{
+    font-size: 8px;
+  }
+  #rightpanel p{
+    font-size: 20px;
+  }
+}
+@media(max-width: 520px){
+  #rightpanel button{
+    height: 35px;
+  }
+  #rightpanel p{
+    font-size: 15px;
+  }
+}
+/*Search box media queries*/
+@media(max-width: 665px){
+  .inputzone input{
+    font-size: 10px;
+  }
+  .inputzone i{
+    font-size: 15px;
+  }
+  .inputzone{
+    margin-top:2%;
+  }
+}
+@media(max-width: 440px){
+  .inputzone input{
+  	font-size: 8px;
+  }
+.inputzone i{
+    font-size: 10px;
+  }
+}
