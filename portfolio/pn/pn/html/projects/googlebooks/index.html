@@ -4,57 +4,186 @@
     <meta charset="utf-8">
     <title>API Practice</title>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--project page's stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <link rel="stylesheet" href="css/main.css">
-
+    <!--Template's stylesheets-->
+    <link rel="stylesheet" href="../../css/app.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link rel="stylesheet" href="../../css/responsive.css" />
+    <link href="../../css/fontello.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../css/font-awesome.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../css/hero.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../css/slick.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../css/slick-theme.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="../../css/animate.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../../css/superslides.css" />
+    <script src="../../bower_components/modernizr/modernizr.js"></script>
   </head>
   <body>
-    <div class="container-fluid">
+
+    <div class='contain-to-grid sticky transparent'>
+      <div class='title-area'>
+        <div class="logo-nav">
+          <a href='index.html'>
+            K<span>/</span>H
+          </a>
+          <nav class='small-nav' data-options='sticky_on: large' data-topbar=''>
+            <ul>
+              <li class='active'>
+                <a href='../../index.html'>Home</a>
+              </li>
+              <li class=''>
+                <a href='about.html'>About</a>
+              </li>
+              <li class=''>
+                <a href='works.html'>Works</a>
+              </li>
+              <li class=''>
+                <a href='contact.html'>Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="full white">
+      <div class='row'>
+      <!--Project start-->
+        <div class='large-12 columns project'>
+                <div class="container-fluid">
 
       <div class="row" id='search'>
         <input id='searchbar' class="form-control" placeholder="Search Google Books by Title" type="text"></input>
-        <button class = "btn" id='enter'>Enter</button>
+        <button id='enter'>Enter</button>
       </div>
 
       <div class="row">
-          <div class="col-md-4 col-md-offset-1" id="book1">
+          <div class="large-5 columns" id="book1">
           </div>
-          <div class="col-md-4 col-md-offset-2" id="book2">
+          <div class="large-5 columns right" id="book2">
           </div>
       </div>    
       <div class="row">          
-          <div class="col-md-4 col-md-offset-1" id="book3">
+          <div class="large-5 columns" id="book3">
           </div>
-          <div class="col-md-4 col-md-offset-2" id="book4">
+          <div class="large-5 columns right" id="book4">
           </div>
       </div>    
       <div class="row">
-          <div class="col-md-4 col-md-offset-1" id="book5">
+          <div class="large-5 columns" id="book5">
           </div>
-          <div class="col-md-4 col-md-offset-2" id="book6">
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-md-4 col-md-offset-1" id="book7">
-          </div>
-          <div class="col-md-4 col-md-offset-2" id="book8">
+          <div class="large-5 columns right" id="book6">
           </div>
       </div>
       <div class="row">
-          <div class="col-md-4 col-md-offset-1" id="book9">
+          <div class="large-5 columns" id="book7">
           </div>
-          <div class="col-md-4 col-md-offset-2" id="book10">
+          <div class="large-5 columns right" id="book8">
+          </div>
+      </div>
+      <div class="row">
+          <div class="large-5 columns" id="book9">
+          </div>
+          <div class="large-5 columns right" id="book10">
           </div>
       </div>            
 
     </div>
+        </div>
+      <!--Project end-->
+      </div>
+    </div>
+
+    <div class="full dark no-padding light">
+      <div class="content-wrapper">
+        <div class="color-overlay red fadeinleft"></div>
+        <div class="row">
+          <div class="large-5 columns">
+            <div class="row">
+              <div class="large-9 columns">
+                <h2 class="section-title white">/ What I did</h2>
+                <div class="intro white">
+                  <ul>
+                    <li class='fadeinleft' data-delay='0'><span class="fa fa-check-square-o"></span>#</li>
+                    <li class='fadeinleft' data-delay='100'><span class="fa fa-check-square-o"></span>#</li>
+                    <li class='fadeinleft' data-delay='200'><span class="fa fa-check-square-o"></span>#</li>
+                    <li class='fadeinleft' data-delay='300'><span class="fa fa-check-square-o"></span>#</li>
+                    <li class='fadeinleft' data-delay='400'><span class="fa fa-check-square-o"></span>#</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="large-3 columns"></div>
+            </div>
+          </div>
+          <div class="large-7 columns">
+            <div class="project-intro">
+              <h3 class="white">Google Books Search [Javascript | HTML | CSS | API | AJAX]</h3>
+              <p>This applicatin allows a user to search the Google Books API by title</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="full">
+      <div class="row">
+        <div class="large-12 columns">
+          <div class='nav-wrapper'>
+            <a href="works.html">
+              <i class='fa fa-angle-left'></i> Back to all projects
+            </a>
+            <ul class='nav'>
+              <li>
+                <a href='#next'>
+                  Next projects <i class='fa fa-angle-right'></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="full dark no-padding">
+      <div class="footer">
+        <div class="row">
+          <div class="large-6 columns">
+            <ul class="socials">
+              <li><a href="https://www.linkedin.com/in/karen-henwood-859214113/"><i class='fa fa-linkedin'></i></a></li>
+              <li><a href="https://github.com/karenhenwood"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="http://codepen.io/karenhenwood/"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+          <div class="large-6 columns">
+            <ul>
+              <li>+1 (530) 902 1157</li>
+              <li><a href="#">karenhenwood@gmail.com</a></li>
+            </ul>
+            <p>©2017 K/H. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <!--Template javascript-->
+    <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../../bower_components/foundation/js/foundation.min.js"></script>
+    <script src="../../js/jquery.superslides.min.js"></script>
+    <script src="../../js/wow.min.js"></script>
+    <script src="../../js/app.js"></script>
+    <script src="../../js/jquery.appear.js"></script>
+    <script src="../../js/slick.min.js"></script>
+    <!--Project specific javascript-->
+    <script src = "js/app.js"></script>
+
 
     <script src="js/app.js"></script>
   </body>

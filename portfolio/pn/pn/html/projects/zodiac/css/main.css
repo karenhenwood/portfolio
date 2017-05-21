@@ -1,8 +1,4 @@
 /*CSS from here down to my CSS section borrowed from Tristan and codepen.io and modified for my purposes*/
-/*.project *{
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box
-}*/
 
 /*added a font compatible with the images*/
 @font-face{
@@ -94,12 +90,13 @@
 	font-family: 'lohengrin', Verdana, Tahoma; 
 }
 
-.project select, option, button{
+.project select, option{
 		font-family: 'lohengrin', Verdana, Tahoma;
-		font-size: 18px;
+		font-size: 25px;
 		background:#000;
 		color:#AAAAAA;
 		border: none;
+		height: 2.25em;
 }
 .project select:hover,
 option:hover, 

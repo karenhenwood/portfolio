@@ -4796,6 +4796,10 @@ a {
   a img {
     border: none; }
 
+.linkinpink {
+  color: #222222; }
+
+
 /* Default paragraph styles */
 p {
   font-family: inherit;

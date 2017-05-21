@@ -366,30 +366,29 @@ var canvas, c, w, h,
 window.onload = function(){
     canvas = document.createElement('canvas')
 
-    var element = document.getElementById('holder');
-    var positionInfo = element.getBoundingClientRect();
-    var height = positionInfo.height;
+    var holder = document.getElementById('holder');
+    var positionInfo = holder.getBoundingClientRect();
     var width = positionInfo.width;
-    console.log(width);
-    console.log(height);
-    console.log(element);
 
     w = canvas.width = width-30;
-    console.log(w)
-    // w = canvas.width = window.innerWidth;
-    h = canvas.height = window.innerHeight - 40 - document.getElementById('signs').clientHeight;
+    h = canvas.height = 450
     document.getElementById('signs').style.width = (width-30) + "px";
+    document.getElementById('selection').style.width = (width-30) + "px"
     c = canvas.getContext('2d');
     var below = document.getElementById('selection').parentNode;
     below.appendChild(canvas);
 
-    // window.addEventListener('resize', function(e){
-    //     w = canvas.width = window.innerWidth;
-    //     h = canvas.height = window.innerHeight - 40 - document.getElementById('signs').clientHeight;
-    //     document.getElementById('signs').style.width = (window.innerWidth) + "px";
-    //     c.translate(w/2,h/2);
-    //}
-    //);
+    window.addEventListener('resize', function(e){
+        var holder = document.getElementById('holder');
+        var positionInfo = holder.getBoundingClientRect();
+        var width = positionInfo.width;
+
+        w = canvas.width = width-30;
+        document.getElementById('signs').style.width = (width-30) + "px";
+        document.getElementById('selection').style.width = (width-30) + "px"
+        c.translate(w/2,h/2);
+    }
+);
 
     //Day option creation
     //Create an array to store values of 1-31 in

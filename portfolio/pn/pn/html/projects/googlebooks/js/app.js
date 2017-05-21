@@ -29,11 +29,11 @@ document.getElementById('enter').onclick = function(){
             titlePriceRow.className = "row titlePriceRow"
                 //title column
                 var titleDiv = document.createElement('div')
-                titleDiv.className = "col-md-8 title"
+                titleDiv.className = "large-7 column title"
                 titlePriceRow.appendChild(titleDiv)
                 //price column
                 var priceDiv = document.createElement('div')
-                priceDiv.className = "col-md-2 col-md-offset-1 price"
+                priceDiv.className = "large-5 column price"
                 titlePriceRow.appendChild(priceDiv)
 
                 document.getElementById(booki).appendChild(titlePriceRow)
@@ -43,7 +43,7 @@ document.getElementById('enter').onclick = function(){
             authorRow.className = "row authorRow"
                //author column
                 var authorDiv = document.createElement('div')
-                authorDiv.className = "col-md-12 author"
+                authorDiv.className = "large-12 column author"
                 authorRow.appendChild(authorDiv)
 
                 document.getElementById(booki).appendChild(authorRow)
@@ -53,7 +53,7 @@ document.getElementById('enter').onclick = function(){
             descriptionRow.className = "row descriptionRow"
                //description column
                 var descriptionDiv = document.createElement('div')
-                descriptionDiv.className = "col-md-12 description"
+                descriptionDiv.className = "large-12 column description"
                 descriptionRow.appendChild(descriptionDiv)
 
                 document.getElementById(booki).appendChild(descriptionRow)
@@ -65,12 +65,12 @@ document.getElementById('enter').onclick = function(){
             document.getElementsByClassName('imgRow')[i].appendChild(img)
 
             //title data
-            var title = document.createElement('h1')
+            var title = document.createElement('h3')
             title.innerHTML =  data.items[i].volumeInfo.title
             document.getElementsByClassName('title')[i].appendChild(title)
 
             //price data
-            var price = document.createElement('h1')
+            var price = document.createElement('h3')
             if(data.items[i].saleInfo.listPrice!=undefined){
                 price.innerHTML = '$' + data.items[i].saleInfo.listPrice.amount
             }else{

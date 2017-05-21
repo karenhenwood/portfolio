@@ -14,7 +14,7 @@
 .project #thread-wrapper{
 	overflow-y:auto;
 	height:60vh;
-	background-color: lightgrey;
+	background-color: #222222;
 }
 .project #thread{
 	position:relative;
@@ -36,7 +36,7 @@
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 20px;
-	background-color: #ffffb3;
+	background-color: #F2C848;
 	min-height: 20px;
 }
 
@@ -44,7 +44,7 @@
 	border-bottom-left-radius: 5px;
 	border-top-right-radius: 20px;
 	border-top-left-radius: 5px;
-	background-color: #ccffff;
+	background-color: #A7ECE8;
 	min-height: 20px;
 	float:right;
 }
