@@ -1,80 +1,78 @@
-body{
-	margin: 0;
-	padding-bottom: 85px; /*Match padding to footer height*/
-}
-
 /*Navigation bar styling*/
-nav{
+.project nav{
 	background-color: #FE7E00;
 	color: #F1DCBC;
+	width: 100%;
 	overflow: auto;
 }
-nav div{
+.project nav div{
 	display: inline-block;
 	font-size: 30px;
 	padding-left: 5%;
 	padding-top: 1%;
 }
-nav img{
+.project nav img{
 	display: inline-block;
 	width: 30px;
 	vertical-align: middle;
 }
-nav p {
+.project nav p {
 	display: inline-block;
 	font-family: 'Varela Round', sans-serif;
 	margin: 0;
 	font-weight: 100;
 }
-nav span{
+.project nav span{
 	font-weight: 900;
 }
-nav ul{
+.project ul{
 	display: inline-block;
 	float: right;
-	width: 55%;
+	width: 80%;
 	margin: 0;
 	padding: 0;
 }
-nav li {
+.project nav li {
 	display: inline-block;
 	font-family: 'Varela', sans-serif;
 	float: right;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 900;
-	padding: 3% 4%;
+	margin: 3% 2%;
 	text-transform: uppercase;
 }
 
 /*Section break styling*/
-#sectionbreak{
+.project #sectionbreak{
 	background-color: #F16F01;
 	height: 10px;
+	width: 100%;
 }
 
 /*Mid-Section styling*/
-section{
+.project section{
 	overflow: auto;
+	width: 100%;
 }
-#leftpanel{
+.project #leftpanel{
 	width: 50%;
 	display: inline-block;
 }
-#leftpanel img{
+.project #leftpanel img{
 	width: 56%;
-	margin: 10% 22%;
+	margin: 20% 22%;
 }
-#rightpanel{
+.project #rightpanel{
 	width: 50%;
 	display: inline-block;
 	float: right;
-	padding-bottom: 5%;
+	margin-bottom: 5%;
 }
-.inputzone {
+.project .inputzone {
 	position: relative;
 	margin-top: .5%;
 }
-.inputzone input{
+.project .inputzone input{
 	background-color: #F0F0F0;
 	border: none;
 	width: 30%;
@@ -85,7 +83,7 @@ section{
 	color: #C8C8CA;
 	font-size: 15px;
 }
-.inputzone i{
+.project .inputzone i{
 	position: absolute;
 	right: 0;
 	padding: 2% 2% 0 0;
@@ -93,15 +91,15 @@ section{
 	color: #C8C8CA;
 	font-size: 20px;
 }
-#rightpanel input:focus{
+.project #rightpanel input:focus{
 	outline: none;
 	z-index: 1;
 }
-#centeredcontent{
+.project #centeredcontent{
 	text-align: center;
 	margin: 15% 15% 0 10%;
 }
-#rightpanel p{
+.project #rightpanel p{
 	color: #FE7E00;
 	font-size: 30px;
 	font-weight: 100;
@@ -112,117 +110,122 @@ section{
 	letter-spacing: 2px;
 	font-family: 'Varela Round', sans-serif;
 }
-#rightpanel span{
+.project #rightpanel span{
 	font-weight: 900;
 }
-.bluetext{
+.project .bluetext{
 	color: #7ACCC8;
 }
-#rightpanel button{
+.project #rightpanel button{
 	border: none;
 	color: #F1DCBC;
 	margin-top: 10%;
 	width: 47%;
-    padding: 4% 0;
+    padding: 4% 0 4% 0;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
-#leftbutton{
+.project #leftbutton{
      background-color: #FE7E00;
      float: left;
 
 }
-#rightbutton{
+.project #rightbutton{
 	background-color: #7ACCC8;
 	float: right;
 }
 
 /*Empty Blue Footer styling*/
-footer{
+.project footer{
+	display:block;
 	background-color: #7ACCC8;
 	height: 85px;
-	position: fixed;
-	bottom: 0;
 	width: 100%;
 }
 
-/*Navigation bar media queries*/
+/*/*Navigation bar media queries*/
 @media(max-width: 1005px){
-  nav li {
+  .project nav li {
   	font-size: 10px;
 	padding: 3% 4%;
   }
-  nav div{
+  .project nav div{
     font-size: 20px;
   }
 }
-@media(max-width: 665px){
-  nav div{
+@media(max-width: 940px){
+  .project nav div{
 	display: block;
 	padding-top: 2%;
   }
-  nav ul{
+  .project nav ul{
   	float: left;
 	padding-left: 5%;
 	width: 95%;
   }
-  nav li{
+  .project nav li{
   	padding: 1.5% 2%;
-  	float: left;
+    float: left;
+  	display:block;
   }
 }
 
 /*Mid-Section Media Queries*/
 @media(max-width: 1325px){
-  #rightpanel button{
+  .project #rightpanel button{
     font-size: 15px;
   }
-  #rightpanel p{
+  .project #rightpanel p{
 	font-size: 30px;
   }
 }
 @media(max-width: 1070px){
-  #rightpanel button{
+  .project #rightpanel button{
     font-size: 10px;
   }
-  #rightpanel p{
+  .project #rightpanel p{
     font-size: 25px;
   }
 }
 @media(max-width: 680px){
-  #rightpanel button{
+  .project #rightpanel button{
     font-size: 8px;
   }
-  #rightpanel p{
+  .project #rightpanel p{
     font-size: 20px;
   }
 }
 @media(max-width: 520px){
-  #rightpanel button{
+  .project #rightpanel button{
     height: 35px;
   }
-  #rightpanel p{
+  .project #rightpanel p{
     font-size: 15px;
+  }
+  .project #centeredcontent{
+  	margin-top: 30%;
   }
 }
 /*Search box media queries*/
-@media(max-width: 665px){
-  .inputzone input{
+@media(max-width: 940px){
+  .project .inputzone input{
     font-size: 10px;
   }
-  .inputzone i{
+  .project .inputzone i{
     font-size: 15px;
   }
-  .inputzone{
+  .project .inputzone{
     margin-top:2%;
   }
 }
-@media(max-width: 440px){
-  .inputzone input{
+@media(max-width: 520px){
+  .project .inputzone input{
   	font-size: 8px;
+  	width: 50%;
+  	height: 30px;
   }
-.inputzone i{
+.project .inputzone i{
     font-size: 10px;
   }
 }
