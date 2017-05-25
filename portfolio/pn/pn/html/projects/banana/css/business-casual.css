@@ -4,150 +4,173 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-body {
-    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bananaleaf.jpg') no-repeat center center fixed;
+.project .bigcontainer{
+        background: url('../img/bananaleaf.jpg') no-repeat center center fixed;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.project .container{
+    width: 85%;
+}
+
+.project h1,
+.project h2,
+.project h3,
+.project h4,
+.project h5,
+.project h6 {
     text-transform: uppercase;
     font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
-p {
+.project p {
     font-size: 1.25em;
     line-height: 1.6;
     color: #206601;
 }
 
-hr {
-    max-width: 400px;
+.project a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.project hr {
+    margin: 1.25rem auto;
+    width: 90%;
     border-color: #1b6402;
 }
 
-.brand,
+.project .brand,
 .address-bar {
     display: none;
 }
 
-.navbar-brand {
+.project .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing: 2px;
 }
-.navbar-default .navbar-brand {
+.project .navbar-default .navbar-brand {
     color: #071901;
 }
-.navbar-default {
+.project .navbar-default {
    background-color: rgba(255,255,63,0.7);
    border: none;
 }
-.navbar-default .navbar-toggle {
+.project .navbar-default .navbar-toggle {
     border-color: #ecfee7;
 }
-.navbar-default .navbar-toggle:hover {
+.project .navbar-default .navbar-toggle:hover {
     background-color: rgba(255,255,63,0.3);
 }
-.navbar-default .navbar-toggle .icon-bar {
+.project .navbar-default .navbar-toggle .icon-bar {
     background-color: #1b6402;
 }
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.project .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border:none;
 }
-.navbar-nav {
+.project .navbar-nav {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
 }
-.navbar-default .navbar-nav>li>a {
+.project .navbar-default .navbar-nav>li>a {
     color:  #1b6402;
 }
-.navbar-default .navbar-nav>li:hover {
+.project .navbar-default .navbar-nav>li:hover {
     color:  #0d3201;
 }
-.img-full {
+.project .img-full {
     min-width: 100%;
 }
 
-.brand-before,
-.brand-name {
+.project .brand-before,
+.project .brand-name {
     text-transform: capitalize;
 }
 
-.brand-before {
+.project .brand-before {
     margin: 15px 0;
 
 }
-
-h1{
+.project h1{
     color: #071901 ;
 }
-h2, h2 small,
-strong, h3 small {
+.project h2, .project h2 small,
+.project strong, .project h3 small {
     color: #1b6402;
 }
-h3, label, button{
+.project h3, .project label, .project button{
     color: #071901;
 }
-.brand-name {
+
+.project label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.project .form-control {
+    color: #555;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.project .brand-name {
     margin: 0;
     font-size: 4em;
 }
 
-.tagline-divider {
+.project .tagline-divider {
     margin: 15px auto 3px;
     max-width: 250px;
     border-color: #1b6402;
 }
 
-.box {
+.project .box {
     margin-bottom: 20px;
     padding: 30px 15px;
     background: #fff;
     background: rgba(255,255,63,0.7);
 }
 
-.intro-text {
+.project .intro-text {
     text-transform: uppercase;
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 1px;
 }
 
-.img-border {
+.project .img-border {
     float: none;
     margin: 0 auto 0;
     border: #1b6402 solid 1px;
 }
 
-.img-left {
+.project .img-left {
     float: none;
     margin: 0 auto 0;
 }
 
-footer {
+.project footer {
     background: #fff;
     background: rgba(255,255,63,0.7);
 }
 
-footer p {
-    margin: 0;
+.project footer p {
+    margin: 0 -10px;
     padding: 50px 0;
 }
 
 @media screen and (min-width:768px) {
-    .brand {
+    .project .brand {
         display: inherit;
         margin: 0;
         padding: 30px 0 10px;
@@ -160,16 +183,16 @@ footer p {
         color: rgba(255,255,63,1);
     }
 
-    .top-divider {
+    .project .top-divider {
         margin-top: 0;
     }
 
-    .img-left {
+    .project .img-left {
         float: left;
         margin-right: 25px;
     }
 
-    .address-bar {
+    .project .address-bar {
         display: inherit;
         margin: 0;
         padding: 0 0 40px;
@@ -182,34 +205,33 @@ footer p {
         color: rgba(255,255,63,1);
     }
 
-    .navbar {
+    .project .navbar {
         border-radius: 0;
     }
 
-    .navbar-header {
+    .project .navbar-header {
         display: none;
     }
 
-    .navbar {
+    .project .navbar {
         min-height: 0;
     }
 
-    .navbar-default {
+    .project .navbar-default {
         border: none;
         background: #fff;
         background: rgba(255,255,63,0.7);
     }
 
-    .nav>li>a {
+    .project .nav>li>a {
         padding: 35px;
-
     }
 
-    .navbar-nav>li>a {
+    .project .navbar-nav>li>a {
         line-height: normal;
     }
 
-    .navbar-nav {
+    .project .navbar-nav {
         display: table;
         float: none;
         margin: 0 auto;
@@ -219,7 +241,7 @@ footer p {
 }
 
 @media screen and (min-width:1200px) {
-    .box:after {
+    .project .box:after {
         content: '';
         display: table;
         clear: both;

@@ -144,7 +144,7 @@
 	width: 100%;
 }
 
-/*/*Navigation bar media queries*/
+/*Navigation bar media queries*/
 @media(max-width: 1005px){
   .project nav li {
   	font-size: 10px;
@@ -160,13 +160,14 @@
 	padding-top: 2%;
   }
   .project nav ul{
-  	float: left;
+  	float: none;
 	padding-left: 5%;
 	width: 95%;
   }
   .project nav li{
   	padding: 1.5% 2%;
-    float: left;
+  	margin: 0;
+    float: none;
   	display:block;
   }
 }
@@ -219,7 +220,7 @@
     margin-top:2%;
   }
 }
-@media(max-width: 520px){
+@media(max-width: 780px){
   .project .inputzone input{
   	font-size: 8px;
   	width: 50%;

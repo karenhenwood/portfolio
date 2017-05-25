@@ -113,6 +113,7 @@ jQuery(document).ready(function($) {
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: false,
+   variableWidth: true,
     responsive: [
       {
         breakpoint: 767,

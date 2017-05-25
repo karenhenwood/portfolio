@@ -66,7 +66,7 @@
   background: #a7ece8; }
 
 .full.bg-1 {
-  background-image: url(../images/@stock/home-intro.png); }
+  background-image: url(../images/functional.png); }
 
 .full.bg-2 {
   background-image: url(../images/@stock/testimonials-bg-2.jpg); }
@@ -121,7 +121,7 @@ h2.title {
   margin-bottom: 70px; }
   .intro p {
     font-size: 24px;
-    color: #999; }
+    color: #333; }
 
 .intro.white p {
   color: #fff; }
@@ -1043,10 +1043,6 @@ form.dark input[type="text"], form.dark input[type="password"], form.dark input[
 /* slide images */
 .images {
   overflow: hidden; }
-  .images .columns {
-    padding: 0; }
-  .images img {
-    width: 100%; }
 
 .images.slick-slider {
   margin-bottom: 0; }
