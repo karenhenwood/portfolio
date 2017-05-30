@@ -5,8 +5,8 @@
  */
 
 .project .bigcontainer{
-        background: url('../img/bananaleaf.jpg') no-repeat center center fixed;
-        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/bananaleaf.jpg') no-repeat center center fixed;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

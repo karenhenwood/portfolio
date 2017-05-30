@@ -76,6 +76,12 @@ img {
 img {
   -ms-interpolation-mode: bicubic; }
 
+iframe{
+  width: 100%;
+  height: 100vh;
+  border: none;
+}
+
 #map_canvas img, #map_canvas embed, #map_canvas object, .map_canvas img, .map_canvas embed, .map_canvas object, .mqa-display img, .mqa-display embed, .mqa-display object {
   max-width: none !important; }
 
