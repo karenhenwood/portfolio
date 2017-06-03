@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>API Practice</title>
+    <title>Google Books Search Beta</title>
 
     <!--project page's stylesheet-->
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -103,11 +103,12 @@
                 <h2 class="section-title white">/ What I did</h2>
                 <div class="intro white">
                   <ul>
-                    <li class='fadeinleft' data-delay='0'><span class="fa fa-check-square-o"></span>#</li>
-                    <li class='fadeinleft' data-delay='100'><span class="fa fa-check-square-o"></span>#</li>
-                    <li class='fadeinleft' data-delay='200'><span class="fa fa-check-square-o"></span>#</li>
-                    <li class='fadeinleft' data-delay='300'><span class="fa fa-check-square-o"></span>#</li>
-                    <li class='fadeinleft' data-delay='400'><span class="fa fa-check-square-o"></span>#</li>
+                    <li class='fadeinleft' data-delay='400'><span class="fa fa-check-square-o"></span>Created a grid of HTML elements and basic CSS to arrange results neatly on return of data</li>
+                    <li class='fadeinleft' data-delay='0'><span class="fa fa-check-square-o"></span>Grabed the search term from the input field when enter is clicked and cleared the input field</li>
+                    <li class='fadeinleft' data-delay='100'><span class="fa fa-check-square-o"></span>Created a final URL by appending the search term to the google books API volume endpoint URL, then cleared the page of previous search results</li>
+                    <li class='fadeinleft' data-delay='200'><span class="fa fa-check-square-o"></span>Initiated an AJAX call to the API with the final URL</li>
+                    <li class='fadeinleft' data-delay='300'><span class="fa fa-check-square-o"></span>Looped through the returned data 10 times to pick out the relevant pieces information and append them to the page</li>
+                    
                   </ul>
                 </div>
               </div>
@@ -116,8 +117,8 @@
           </div>
           <div class="large-7 columns">
             <div class="project-intro">
-              <h3 class="white">Google Books Search [Javascript | HTML | CSS | API | AJAX]</h3>
-              <p>This applicatin allows a user to search the Google Books API by title</p>
+              <h3 class="white">Google Books Search Beta [Javascript | HTML | CSS | API | AJAX]</h3>
+              <p>This application returns the title, price, author, description, and thumbnail for the first ten results from the Google Books API for a user's title search.  It is BETA becuase it does not yet contain much error handling for null or undefined results, causing it to stall out during some searches.</p>
             </div>
           </div>
         </div>
@@ -157,7 +158,7 @@
           <div class="large-6 columns">
             <ul>
               <li>+1 (530) 902 1157</li>
-              <li><a href="#">karenhenwood@gmail.com</a></li>
+              <li><a href="../../contact.html#portfoliocontact_header">karenhenwood@gmail.com</a></li>
             </ul>
             <p>©2017 K/H. All rights reserved.</p>
           </div>

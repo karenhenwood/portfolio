@@ -4,8 +4,8 @@ jQuery(document).ready(function($) {
   $(document).foundation();
 
 
-  if($('form#contact_form').length > 0) {
-    $('form#contact_form').validate({
+  if($('form#portfoliocontact_form').length > 0) {
+    $('form#portfoliocontact_form').validate({
       messages: { },
       submitHandler: function(form) {
         $.ajax({

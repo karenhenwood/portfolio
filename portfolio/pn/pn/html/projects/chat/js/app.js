@@ -66,7 +66,7 @@ function appendThread(r){
   };
 }
 
-//fucntion is called when a new message is added and the user isn't reading in the middle of the thread
+//function is called when a new message is added and the user isn't reading in the middle of the thread
 function scrollToBottom() {
   threadwrapper.scrollTop = threadwrapper.scrollHeight;
 }
